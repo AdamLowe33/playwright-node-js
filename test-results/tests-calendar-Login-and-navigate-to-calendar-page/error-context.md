@@ -1,0 +1,298 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e6]:
+  - navigation [ref=e7]:
+    - generic [ref=e8]:
+      - link [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img [ref=e11] [cursor=pointer]
+      - generic [ref=e12]:
+        - link "eLuma Insight" [ref=e13] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e14] [cursor=pointer]: eLuma Insight
+        - link "Backpack" [ref=e15] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e16] [cursor=pointer]: Backpack
+      - generic [ref=e17]:
+        - generic [ref=e18] [cursor=pointer]: help
+        - generic [ref=e21] [cursor=pointer]: "11"
+  - generic [ref=e23]:
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - link "home Dashboard" [ref=e26] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e27] [cursor=pointer]: home
+          - paragraph [ref=e28] [cursor=pointer]: Dashboard
+        - link "event Calendar" [active] [ref=e29] [cursor=pointer]:
+          - /url: /calendar
+          - generic [ref=e30] [cursor=pointer]: event
+          - paragraph [ref=e31] [cursor=pointer]: Calendar
+        - link "supervisor_account Users" [ref=e32] [cursor=pointer]:
+          - /url: /users
+          - generic [ref=e33] [cursor=pointer]: supervisor_account
+          - paragraph [ref=e34] [cursor=pointer]: Users
+        - link "domain Organizations" [ref=e35] [cursor=pointer]:
+          - /url: /organizations
+          - generic [ref=e36] [cursor=pointer]: domain
+          - paragraph [ref=e37] [cursor=pointer]: Organizations
+        - link "bar_chart Reports" [ref=e38] [cursor=pointer]:
+          - /url: /reports?start_at=2025-10-01&end_at=2025-10-31
+          - generic [ref=e39] [cursor=pointer]: bar_chart
+          - paragraph [ref=e40] [cursor=pointer]: Reports
+      - button "chevron_left Collapse" [ref=e41] [cursor=pointer]:
+        - generic [ref=e42] [cursor=pointer]: chevron_left
+        - paragraph [ref=e43] [cursor=pointer]: Collapse
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - heading "October 2025" [level=1] [ref=e46]:
+          - strong [ref=e47]: October
+          - text: "2025"
+        - generic [ref=e48]:
+          - menubar [ref=e52]:
+            - menuitem "List" [ref=e53] [cursor=pointer]:
+              - generic [ref=e54] [cursor=pointer]: List
+            - menuitem "Day" [ref=e55] [cursor=pointer]:
+              - generic [ref=e56] [cursor=pointer]: Day
+            - menuitem "Week" [ref=e57] [cursor=pointer]:
+              - generic [ref=e58] [cursor=pointer]: Week
+            - menuitem "Month" [ref=e59] [cursor=pointer]:
+              - generic [ref=e60] [cursor=pointer]: Month
+          - button "Today" [ref=e61] [cursor=pointer]:
+            - generic [ref=e63] [cursor=pointer]:
+              - img [ref=e64] [cursor=pointer]
+              - generic [ref=e66] [cursor=pointer]: Today
+          - button "chevron_left" [ref=e67] [cursor=pointer]:
+            - generic [ref=e69] [cursor=pointer]:
+              - img [ref=e70] [cursor=pointer]
+              - generic [ref=e72] [cursor=pointer]: chevron_left
+          - button "chevron_right" [ref=e73] [cursor=pointer]:
+            - generic [ref=e75] [cursor=pointer]:
+              - img [ref=e76] [cursor=pointer]
+              - generic [ref=e78] [cursor=pointer]: chevron_right
+          - generic [ref=e79]:
+            - generic [ref=e80]: Documented
+            - generic [ref=e81]: 0.00/10.33
+          - generic [ref=e82]:
+            - generic [ref=e83]:
+              - listbox [ref=e84]:
+                - option [ref=e85]:
+                  - combobox "Search Attendees" [ref=e86]
+              - status [ref=e87]: No results found
+            - button "filter_list Filters" [ref=e88] [cursor=pointer]:
+              - generic [ref=e90] [cursor=pointer]:
+                - img [ref=e91] [cursor=pointer]
+                - generic [ref=e93] [cursor=pointer]: filter_list
+                - generic [ref=e94] [cursor=pointer]: Filters
+            - button "add New Event" [ref=e95] [cursor=pointer]:
+              - generic [ref=e97] [cursor=pointer]:
+                - img [ref=e98] [cursor=pointer]
+                - generic [ref=e100] [cursor=pointer]: add
+                - generic [ref=e101] [cursor=pointer]: New Event
+      - table [ref=e109]:
+        - rowgroup [ref=e110]:
+          - row "Time Event" [ref=e111]:
+            - columnheader "Time" [ref=e112]
+            - columnheader "Event" [ref=e113]
+        - rowgroup [ref=e114]:
+          - row "29 more_horiz" [ref=e115]:
+            - cell "29 more_horiz" [ref=e116]:
+              - generic [ref=e117]:
+                - generic [ref=e118]: "29"
+                - generic [ref=e119] [cursor=pointer]: more_horiz
+          - row "radio_button_unchecked 7:10 AM - 7:30 AM PDT perm_contact_calendar 61968_display_name" [ref=e120] [cursor=pointer]:
+            - cell "radio_button_unchecked 7:10 AM - 7:30 AM PDT" [ref=e121] [cursor=pointer]
+            - cell "perm_contact_calendar 61968_display_name" [ref=e122] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e128] [cursor=pointer]: 61968_display_name
+          - row "radio_button_unchecked 7:30 AM - 7:50 AM PDT perm_contact_calendar 35360_display_name, 48266_display_name" [ref=e129] [cursor=pointer]:
+            - cell "radio_button_unchecked 7:30 AM - 7:50 AM PDT" [ref=e130] [cursor=pointer]
+            - cell "perm_contact_calendar 35360_display_name, 48266_display_name" [ref=e131] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e137] [cursor=pointer]: 35360_display_name, 48266_display_name
+          - row "radio_button_unchecked 7:50 AM - 8:10 AM PDT perm_contact_calendar 61970_display_name, 74213_display_name" [ref=e138] [cursor=pointer]:
+            - cell "radio_button_unchecked 7:50 AM - 8:10 AM PDT" [ref=e139] [cursor=pointer]
+            - cell "perm_contact_calendar 61970_display_name, 74213_display_name" [ref=e140] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e146] [cursor=pointer]: 61970_display_name, 74213_display_name
+          - row "radio_button_unchecked 8:10 AM - 8:30 AM PDT perm_contact_calendar 36749_display_name, 61969_display_name" [ref=e147] [cursor=pointer]:
+            - cell "radio_button_unchecked 8:10 AM - 8:30 AM PDT" [ref=e148] [cursor=pointer]
+            - cell "perm_contact_calendar 36749_display_name, 61969_display_name" [ref=e149] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e155] [cursor=pointer]: 36749_display_name, 61969_display_name
+          - row "radio_button_unchecked 8:30 AM - 8:45 AM PDT perm_contact_calendar 55401_display_name" [ref=e156] [cursor=pointer]:
+            - cell "radio_button_unchecked 8:30 AM - 8:45 AM PDT" [ref=e157] [cursor=pointer]
+            - cell "perm_contact_calendar 55401_display_name" [ref=e158] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e164] [cursor=pointer]: 55401_display_name
+          - row "radio_button_unchecked 8:45 AM - 9:00 AM PDT perm_contact_calendar 55629_display_name" [ref=e165] [cursor=pointer]:
+            - cell "radio_button_unchecked 8:45 AM - 9:00 AM PDT" [ref=e166] [cursor=pointer]
+            - cell "perm_contact_calendar 55629_display_name" [ref=e167] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e173] [cursor=pointer]: 55629_display_name
+          - row "radio_button_unchecked 9:00 AM - 9:15 AM PDT perm_contact_calendar 34993_display_name" [ref=e174] [cursor=pointer]:
+            - cell "radio_button_unchecked 9:00 AM - 9:15 AM PDT" [ref=e175] [cursor=pointer]
+            - cell "perm_contact_calendar 34993_display_name" [ref=e176] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e182] [cursor=pointer]: 34993_display_name
+          - row "30 more_horiz" [ref=e183]:
+            - cell "30 more_horiz" [ref=e184]:
+              - generic [ref=e185]:
+                - generic [ref=e186]: "30"
+                - generic [ref=e187] [cursor=pointer]: more_horiz
+          - row "radio_button_unchecked 11:30 AM - 11:45 AM PDT perm_contact_calendar 21329_display_name" [ref=e188] [cursor=pointer]:
+            - cell "radio_button_unchecked 11:30 AM - 11:45 AM PDT" [ref=e189] [cursor=pointer]
+            - cell "perm_contact_calendar 21329_display_name" [ref=e190] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e196] [cursor=pointer]: 21329_display_name
+          - row "radio_button_unchecked 11:45 AM - 12:00 PM PDT perm_contact_calendar 26348_display_name" [ref=e197] [cursor=pointer]:
+            - cell "radio_button_unchecked 11:45 AM - 12:00 PM PDT" [ref=e198] [cursor=pointer]
+            - cell "perm_contact_calendar 26348_display_name" [ref=e199] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e205] [cursor=pointer]: 26348_display_name
+          - row "radio_button_unchecked 12:00 PM - 12:15 PM PDT perm_contact_calendar 9968_display_name" [ref=e206] [cursor=pointer]:
+            - cell "radio_button_unchecked 12:00 PM - 12:15 PM PDT" [ref=e207] [cursor=pointer]
+            - cell "perm_contact_calendar 9968_display_name" [ref=e208] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e214] [cursor=pointer]: 9968_display_name
+          - row "radio_button_unchecked 1:00 PM - 1:15 PM PDT perm_contact_calendar 75966_display_name" [ref=e215] [cursor=pointer]:
+            - cell "radio_button_unchecked 1:00 PM - 1:15 PM PDT" [ref=e216] [cursor=pointer]
+            - cell "perm_contact_calendar 75966_display_name" [ref=e217] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e223] [cursor=pointer]: 75966_display_name
+          - row "radio_button_unchecked 1:15 PM - 1:35 PM PDT perm_contact_calendar 9481_display_name" [ref=e224] [cursor=pointer]:
+            - cell "radio_button_unchecked 1:15 PM - 1:35 PM PDT" [ref=e225] [cursor=pointer]
+            - cell "perm_contact_calendar 9481_display_name" [ref=e226] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e232] [cursor=pointer]: 9481_display_name
+          - row "radio_button_unchecked 1:45 PM - 2:00 PM PDT perm_contact_calendar 75437_display_name" [ref=e233] [cursor=pointer]:
+            - cell "radio_button_unchecked 1:45 PM - 2:00 PM PDT" [ref=e234] [cursor=pointer]
+            - cell "perm_contact_calendar 75437_display_name" [ref=e235] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e241] [cursor=pointer]: 75437_display_name
+          - row "radio_button_unchecked 2:00 PM - 2:15 PM PDT perm_contact_calendar 52076_display_name" [ref=e242] [cursor=pointer]:
+            - cell "radio_button_unchecked 2:00 PM - 2:15 PM PDT" [ref=e243] [cursor=pointer]
+            - cell "perm_contact_calendar 52076_display_name" [ref=e244] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e250] [cursor=pointer]: 52076_display_name
+          - row "1 more_horiz" [ref=e251]:
+            - cell "1 more_horiz" [ref=e252]:
+              - generic [ref=e253]:
+                - generic [ref=e254]: "1"
+                - generic [ref=e255] [cursor=pointer]: more_horiz
+          - row "radio_button_unchecked 7:10 AM - 7:30 AM PDT perm_contact_calendar 61968_display_name" [ref=e256] [cursor=pointer]:
+            - cell "radio_button_unchecked 7:10 AM - 7:30 AM PDT" [ref=e257] [cursor=pointer]
+            - cell "perm_contact_calendar 61968_display_name" [ref=e258] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e264] [cursor=pointer]: 61968_display_name
+          - row "radio_button_unchecked 7:30 AM - 7:50 AM PDT perm_contact_calendar 35360_display_name, 48266_display_name" [ref=e265] [cursor=pointer]:
+            - cell "radio_button_unchecked 7:30 AM - 7:50 AM PDT" [ref=e266] [cursor=pointer]
+            - cell "perm_contact_calendar 35360_display_name, 48266_display_name" [ref=e267] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e273] [cursor=pointer]: 35360_display_name, 48266_display_name
+          - row "radio_button_unchecked 7:50 AM - 8:10 AM PDT perm_contact_calendar 61970_display_name, 74213_display_name" [ref=e274] [cursor=pointer]:
+            - cell "radio_button_unchecked 7:50 AM - 8:10 AM PDT" [ref=e275] [cursor=pointer]
+            - cell "perm_contact_calendar 61970_display_name, 74213_display_name" [ref=e276] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e282] [cursor=pointer]: 61970_display_name, 74213_display_name
+          - row "radio_button_unchecked 8:10 AM - 8:30 AM PDT perm_contact_calendar 36749_display_name, 61969_display_name" [ref=e283] [cursor=pointer]:
+            - cell "radio_button_unchecked 8:10 AM - 8:30 AM PDT" [ref=e284] [cursor=pointer]
+            - cell "perm_contact_calendar 36749_display_name, 61969_display_name" [ref=e285] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e291] [cursor=pointer]: 36749_display_name, 61969_display_name
+          - row "radio_button_unchecked 8:30 AM - 8:45 AM PDT perm_contact_calendar 55401_display_name" [ref=e292] [cursor=pointer]:
+            - cell "radio_button_unchecked 8:30 AM - 8:45 AM PDT" [ref=e293] [cursor=pointer]
+            - cell "perm_contact_calendar 55401_display_name" [ref=e294] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e300] [cursor=pointer]: 55401_display_name
+          - row "radio_button_unchecked 8:45 AM - 9:00 AM PDT perm_contact_calendar 55629_display_name" [ref=e301] [cursor=pointer]:
+            - cell "radio_button_unchecked 8:45 AM - 9:00 AM PDT" [ref=e302] [cursor=pointer]
+            - cell "perm_contact_calendar 55629_display_name" [ref=e303] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e309] [cursor=pointer]: 55629_display_name
+          - row "radio_button_unchecked 9:00 AM - 9:15 AM PDT perm_contact_calendar 34993_display_name" [ref=e310] [cursor=pointer]:
+            - cell "radio_button_unchecked 9:00 AM - 9:15 AM PDT" [ref=e311] [cursor=pointer]
+            - cell "perm_contact_calendar 34993_display_name" [ref=e312] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e318] [cursor=pointer]: 34993_display_name
+          - row "radio_button_unchecked 9:15 AM - 9:35 AM PDT perm_contact_calendar 61521_display_name" [ref=e319] [cursor=pointer]:
+            - cell "radio_button_unchecked 9:15 AM - 9:35 AM PDT" [ref=e320] [cursor=pointer]
+            - cell "perm_contact_calendar 61521_display_name" [ref=e321] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e327] [cursor=pointer]: 61521_display_name
+          - row "radio_button_unchecked 9:35 AM - 9:55 AM PDT perm_contact_calendar 66487_display_name, 66489_display_name" [ref=e328] [cursor=pointer]:
+            - cell "radio_button_unchecked 9:35 AM - 9:55 AM PDT" [ref=e329] [cursor=pointer]
+            - cell "perm_contact_calendar 66487_display_name, 66489_display_name" [ref=e330] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e336] [cursor=pointer]: 66487_display_name, 66489_display_name
+          - row "radio_button_unchecked 9:55 AM - 10:15 AM PDT perm_contact_calendar 66488_display_name, 66490_display_name" [ref=e337] [cursor=pointer]:
+            - cell "radio_button_unchecked 9:55 AM - 10:15 AM PDT" [ref=e338] [cursor=pointer]
+            - cell "perm_contact_calendar 66488_display_name, 66490_display_name" [ref=e339] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e345] [cursor=pointer]: 66488_display_name, 66490_display_name
+          - row "radio_button_unchecked 10:15 AM - 10:30 AM PDT perm_contact_calendar 66489_display_name" [ref=e346] [cursor=pointer]:
+            - cell "radio_button_unchecked 10:15 AM - 10:30 AM PDT" [ref=e347] [cursor=pointer]
+            - cell "perm_contact_calendar 66489_display_name" [ref=e348] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e354] [cursor=pointer]: 66489_display_name
+          - row "2 more_horiz" [ref=e355]:
+            - cell "2 more_horiz" [ref=e356]:
+              - generic [ref=e357]:
+                - generic [ref=e358]: "2"
+                - generic [ref=e359] [cursor=pointer]: more_horiz
+          - row "radio_button_unchecked 9:15 AM - 9:35 AM PDT perm_contact_calendar 61521_display_name" [ref=e360] [cursor=pointer]:
+            - cell "radio_button_unchecked 9:15 AM - 9:35 AM PDT" [ref=e361] [cursor=pointer]
+            - cell "perm_contact_calendar 61521_display_name" [ref=e362] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e368] [cursor=pointer]: 61521_display_name
+          - row "radio_button_unchecked 9:35 AM - 9:55 AM PDT perm_contact_calendar 66487_display_name, 66489_display_name" [ref=e369] [cursor=pointer]:
+            - cell "radio_button_unchecked 9:35 AM - 9:55 AM PDT" [ref=e370] [cursor=pointer]
+            - cell "perm_contact_calendar 66487_display_name, 66489_display_name" [ref=e371] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e377] [cursor=pointer]: 66487_display_name, 66489_display_name
+          - row "radio_button_unchecked 9:55 AM - 10:15 AM PDT perm_contact_calendar 66488_display_name, 66490_display_name" [ref=e378] [cursor=pointer]:
+            - cell "radio_button_unchecked 9:55 AM - 10:15 AM PDT" [ref=e379] [cursor=pointer]
+            - cell "perm_contact_calendar 66488_display_name, 66490_display_name" [ref=e380] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e386] [cursor=pointer]: 66488_display_name, 66490_display_name
+          - row "radio_button_unchecked 10:15 AM - 10:30 AM PDT perm_contact_calendar 66489_display_name" [ref=e387] [cursor=pointer]:
+            - cell "radio_button_unchecked 10:15 AM - 10:30 AM PDT" [ref=e388] [cursor=pointer]
+            - cell "perm_contact_calendar 66489_display_name" [ref=e389] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e395] [cursor=pointer]: 66489_display_name
+          - row "radio_button_unchecked 11:30 AM - 11:45 AM PDT perm_contact_calendar 21329_display_name" [ref=e396] [cursor=pointer]:
+            - cell "radio_button_unchecked 11:30 AM - 11:45 AM PDT" [ref=e397] [cursor=pointer]
+            - cell "perm_contact_calendar 21329_display_name" [ref=e398] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e404] [cursor=pointer]: 21329_display_name
+          - row "radio_button_unchecked 11:45 AM - 12:00 PM PDT perm_contact_calendar 26348_display_name" [ref=e405] [cursor=pointer]:
+            - cell "radio_button_unchecked 11:45 AM - 12:00 PM PDT" [ref=e406] [cursor=pointer]
+            - cell "perm_contact_calendar 26348_display_name" [ref=e407] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e413] [cursor=pointer]: 26348_display_name
+          - row "radio_button_unchecked 12:00 PM - 12:15 PM PDT perm_contact_calendar 9968_display_name" [ref=e414] [cursor=pointer]:
+            - cell "radio_button_unchecked 12:00 PM - 12:15 PM PDT" [ref=e415] [cursor=pointer]
+            - cell "perm_contact_calendar 9968_display_name" [ref=e416] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e422] [cursor=pointer]: 9968_display_name
+          - row "radio_button_unchecked 1:00 PM - 1:15 PM PDT perm_contact_calendar 75966_display_name" [ref=e423] [cursor=pointer]:
+            - cell "radio_button_unchecked 1:00 PM - 1:15 PM PDT" [ref=e424] [cursor=pointer]
+            - cell "perm_contact_calendar 75966_display_name" [ref=e425] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e431] [cursor=pointer]: 75966_display_name
+          - row "radio_button_unchecked 1:15 PM - 1:35 PM PDT perm_contact_calendar 9481_display_name" [ref=e432] [cursor=pointer]:
+            - cell "radio_button_unchecked 1:15 PM - 1:35 PM PDT" [ref=e433] [cursor=pointer]
+            - cell "perm_contact_calendar 9481_display_name" [ref=e434] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e440] [cursor=pointer]: 9481_display_name
+          - row "perm_contact_calendar1:45 PM - 2:00 PM PDT perm_contact_calendar 75437_display_name" [ref=e441] [cursor=pointer]:
+            - cell "perm_contact_calendar1:45 PM - 2:00 PM PDT" [ref=e442] [cursor=pointer]
+            - cell "perm_contact_calendar 75437_display_name" [ref=e443] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e449] [cursor=pointer]: 75437_display_name
+          - row "perm_contact_calendar2:00 PM - 2:15 PM PDT perm_contact_calendar 52076_display_name" [ref=e450] [cursor=pointer]:
+            - cell "perm_contact_calendar2:00 PM - 2:15 PM PDT" [ref=e451] [cursor=pointer]
+            - cell "perm_contact_calendar 52076_display_name" [ref=e452] [cursor=pointer]:
+              - text: perm_contact_calendar
+              - generic [ref=e458] [cursor=pointer]: 52076_display_name
+```

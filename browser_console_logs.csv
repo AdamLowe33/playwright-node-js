@@ -1,0 +1,3 @@
+"type","text","location"
+"log","Hello from browser!",":1"
+"error","This is an error!",":2"

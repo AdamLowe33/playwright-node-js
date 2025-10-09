@@ -1,0 +1,21 @@
+{
+  "name": "playwright-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:suite": "playwright test tests/login.spec.js tests/organizationProfile.spec.js tests/calendar.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.1",
+    "@playwright/test": "^1.55.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "playwright": "^1.55.1"
+  }
+}
