@@ -63,3 +63,7 @@ Util/LocalCredentials.json
 
 # JsDocs
 docs/
+
+#playwright report and results
+test-report/
+test-results/
