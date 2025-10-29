@@ -6,7 +6,11 @@
   "scripts": {
     "test": "playwright test",
     "test:headed": "playwright test --headed",
-    "test:suite": "playwright test tests/login.spec.js tests/organizationProfile.spec.js tests/calendar.spec.js"
+    "test:suite": "playwright test tests/login.spec.js tests/organizationProfile.spec.js tests/ui/calendar.spec.js",
+    "test:firefox": "PW_BROWSER=firefox npx playwright test",
+    "test:chrome": "PW_BROWSER=chrome npx playwright test",
+    "load:test": "artillery run tests/load/artillery-load-test.yml",
+    "load:report": "artillery run --output report.json tests/load/artillery-load-test.yml && artillery report report.json"
   },
   "keywords": [],
   "author": "",
@@ -14,8 +18,11 @@
   "type": "commonjs",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.18.1",
-    "@playwright/test": "^1.55.0",
     "json2csv": "^6.0.0-alpha.2",
     "playwright": "^1.55.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "artillery": "^2.0.21"
   }
 }

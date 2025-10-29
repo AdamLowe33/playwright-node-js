@@ -1,8 +1,8 @@
 const { test, expect } = require('@playwright/test');
-const LoginPage = require('../pages/LoginPage');
-const OrganizationsPage = require('../pages/OrganizationsPage');
-const OrgProfilePage = require('../pages/OrgProfilePage');
-const CalendarPage = require('../pages/CalendarPage');
+const LoginPage = require('../../pages/LoginPage');
+const OrganizationsPage = require('../../pages/OrganizationsPage');
+const OrgProfilePage = require('../../pages/OrgProfilePage');
+const CalendarPage = require('../../pages/CalendarPage');
 
 test.describe('eLuma TMS Test Suite', () => {
     

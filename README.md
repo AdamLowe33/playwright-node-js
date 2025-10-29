@@ -20,7 +20,9 @@ Install node.js from https://nodejs.org/en/
 17. install ampcode `sudo npm install -g @sourcegraph/amp`
 18. run amp for jetbrains IEDs `amp --jetbrains`
 19. run MCP Server `node server.js`
-20.  • npm test - all tests in headless                                                                                                                                                                                                                              █
+20. run `npm install --save-dev artillery @playwright/test` to install artillery url: `https://app.artillery.io`
+21. run `npm run load:test` or `npm run load:report`, or `artillery run tests/load/artillery-dashboard-test.yml --record --key a9_ljac4am0vm5k4whehnif3sa5csumk3gw` to run on the cloud
+22. npm test - all tests in headless                                                                                                                                                                                                                              █
      • npm run test:headed - all tests headed                                                                                                                                                                                                                        █
      • npm run test:suite - specific test suite
 

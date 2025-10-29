@@ -1,0 +1,40 @@
+config:
+  target: "https://development-tms.elumadevqafeature.com"
+  phases:
+    - duration: 60
+      arrivalRate: 5
+      name: "Warm up"
+    - duration: 120
+      arrivalRate: 10
+      name: "Sustained load"
+    - duration: 60
+      arrivalRate: 20
+      name: "Peak load"
+  http:
+    timeout: 30
+  processor: "./artillery-processor.js"
+
+scenarios:
+  - name: "Login Page Load Test"
+    flow:
+      - get:
+          url: "/account/login"
+          capture:
+            - json: "$.csrfToken"
+              as: "csrfToken"
+          expect:
+            - statusCode: 200
+            - contentType: text/html
+
+  - name: "Login Flow Test"
+    flow:
+      - get:
+          url: "/account/login"
+      - think: 2
+      - post:
+          url: "/account/login"
+          json:
+            username: "11644-email@elumatherapy.com"
+            password: "Password411!"
+          expect:
+            - statusCode: [200, 302]

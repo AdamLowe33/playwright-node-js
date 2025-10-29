@@ -1,0 +1,24 @@
+config:
+  target: "https://development-tms.elumadevqafeature.com"
+  phases:
+    - duration: 60
+      arrivalRate: 5
+      name: "Warm up"
+    - duration: 120
+      arrivalRate: 10
+      name: "Sustained load"
+    - duration: 60
+      arrivalRate: 20
+      name: "Peak load"
+  http:
+    timeout: 30
+  processor: "./artillery-processor.js"
+
+scenarios:
+  - name: "Dashboard Overview Load Test"
+    flow:
+      - get:
+          url: "/dashboard/overview"
+          expect:
+            - statusCode: 200
+            - contentType: text/html

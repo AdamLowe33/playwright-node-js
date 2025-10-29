@@ -1,7 +1,7 @@
 const { test, expect } = require('@playwright/test');
-const LoginPage = require('../pages/LoginPage');
-const CalendarPage = require('../pages/CalendarPage');
-const OrganizationsPage = require('../pages/OrganizationsPage');
+const LoginPage = require('../../pages/LoginPage');
+const CalendarPage = require('../../pages/CalendarPage');
+const OrganizationsPage = require('../../pages/OrganizationsPage');
 
 test('Login and verify Calendar and Organization tabs', async ({ page }) => {
     const loginPage = new LoginPage(page);
